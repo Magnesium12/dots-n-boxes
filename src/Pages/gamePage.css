@@ -1,0 +1,50 @@
+.vert-edge {
+    width : 6px;
+    height : 30px;
+    padding: 0px;
+    border: 0px;
+    background-color : grey;
+    left: 30px;
+    right:0px;
+    margin-left:0px;
+    margin-right: 30px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  .hori-edge {
+    width : 30px;
+    height : 6px;
+    padding: 0px;
+    border: 0px;
+    background-color : grey;
+    position: relative;
+    margin:3px;
+  }
+  .hori-lines:after {
+    clear: both;
+    content: "";
+    display:grid;
+  }
+  .vert-lines:after {
+    clear: both;
+    content: "";
+    display: grid;
+  }
+  .board{
+    clear:both;
+    content: "";
+    margin: 50px;
+  }
+  .score{
+    color: blue;
+  }
+  .scoreBoard{
+    margin: 10px;
+    border: #0e0f0f;
+  }
+  .result{
+    margin: 10px;
+    color: green;
+    background-color: yellow;
+    border:black;
+  }
